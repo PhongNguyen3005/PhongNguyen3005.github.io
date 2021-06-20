@@ -311,6 +311,7 @@ DijkstraPrim.prototype.doDijkstraPrim = function(startVertex)
 	{
 		this.cmd("SetText",this.message1ID, "Finding Paths in Table"); 
 		this.createPaths();
+		this.highlightTree();
 	}
 	// Running Prim's algorithm, highlight the tree
 	else
